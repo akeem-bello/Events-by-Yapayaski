@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(23, 23, 23);
+}
+
+nav li a{
+    color: rgb(125, 60, 152);
+}
+
+nav p{
+    color: rgb(125, 60, 152);
+}
+
+#section1{
+    padding: 15% 15%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h1{
+    color: rgb(125, 60, 152);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 80px;
+    margin-top: -120px;
+}
+
+#section1 h2{
+    color: rgb(125, 60, 152);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#section2{
+    padding: 15% 15%;
+    margin-top: -400px;
+    margin-bottom: 5px;
+}
+
+#section2 h2{
+    color: rgb(125, 60, 152);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#section3{
+    padding: 15% 15%;
+    margin-top: -400px;
+    margin-bottom: 5px;
+}
+
+#section3 h2{
+    color: rgb(125, 60, 152);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#section4{
+    padding: 15% 15%;
+    margin-top: -400px;
+    margin-bottom: 5px;
+}
+
+#section4 h2{
+    color: rgb(125, 60, 152);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#section5{
+    padding: 15% 15%;
+    margin-top: -400px;
+    margin-bottom: 5px;
+}
+
+#section5 h2{
+    color: rgb(125, 60, 152);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#section6{
+    padding: 15% 15%;
+    margin-top: -400px;
+    margin-bottom: 5px;
+}
+
+#section6 h2{
+    color: rgb(125, 60, 152);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#section7{
+    padding: 5% 15%;
+    margin-top: -120px;
+    background-color: rgb(125, 60, 152);
+}
+
+#section7 h2{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 1px;
+}
+
+#section7 p{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 1% 0%;
+}
+
+footer p{
+    font-size: 13px;
+    color: rgb(125, 60, 152);
+    margin-top: 10px;
+}
+
+footer div{
+    padding: 0% 15%;
+}

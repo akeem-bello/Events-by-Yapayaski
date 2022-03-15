@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(23, 23, 23);
+}
+
+nav li a{
+    color: rgb(125, 60, 152);
+}
+
+nav p{
+    color: rgb(125, 60, 152);
+}
+
+#section1{
+    padding: 15% 15%;
+    margin-top: -80px;
+}
+
+#section2{
+    padding: 15% 15%;
+    margin-top: -380px;
+}
+
+#section3{
+    padding: 15% 15%;
+    margin-top: -380px;
+}
+
+#section4{
+    padding: 15% 15%;
+    margin-top: -380px;
+}
+
+#section5{
+    padding: 15% 15%;
+    margin-top: -380px;
+}
+
+footer{
+    background-color: black;
+    padding: 1% 0%;
+}
+
+footer p{
+    font-size: 13px;
+    color: rgb(125, 60, 152);
+    margin-top: 10px;
+}
+
+footer div{
+    padding: 0% 15%;
+}
