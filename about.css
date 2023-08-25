@@ -10,9 +10,17 @@ nav li a{
      color: rgb(125, 60, 152);
  }
 
- nav p{
-     color: rgb(125, 60, 152);
- }
+ nav ul{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div1 div{
+    width: 100%;
+    padding: 1%;
+}
 
 #section1{
      padding: 15% 15%;
@@ -22,6 +30,7 @@ nav li a{
  #section1 h2{
      font-size: 30px;
      margin-bottom: 30px;
+     text-align: center;
      color: rgb(125, 60, 152);
  }
 
@@ -39,9 +48,8 @@ nav li a{
  #section2 h2{
      color: rgb(125, 60, 152);
      text-align: center;
-     font-size: 55px;
-     font-weight: 300;
-     margin-bottom: 40px;
+     font-size: 30px;
+     margin-bottom: 20px;
  }
 
  #section2 p{
@@ -63,3 +71,24 @@ nav li a{
  footer div{
      padding: 0% 15%;
  }
+
+ @media all and (max-width:500px) {
+    nav ul{
+        display: inline-flex;
+        list-style: none;
+        justify-content: space-between;
+        font-size: small;
+    }
+
+    #section1{
+        padding: 15% 15%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+ }
+
+ @media all and (min-width: 850px) {
+    .div1{
+        display: flex;
+    }
+}

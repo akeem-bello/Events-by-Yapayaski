@@ -10,24 +10,13 @@ nav li a{
     color: rgb(125, 60, 152);
 }
 
-nav p{
-    color: rgb(125, 60, 152);
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
 }
 
-#section1{
-    padding: 15% 15%;
-    margin-top: -80px;
-}
-
-#section2{
-    padding: 15% 15%;
-    margin-top: -380px;
-}
-
-#section3{
-    padding: 15% 15%;
-    margin-top: -380px;
-}
 
 footer{
     background-color: black;
@@ -42,4 +31,41 @@ footer p{
 
 footer div{
     padding: 0% 15%;
+}
+
+@media all and (max-width:500px) {
+    nav ul{
+        display: inline-flex;
+        list-style: none;
+        justify-content: space-between;
+        font-size: small;
+    }
+    
+    #section1{
+        padding: 15% 15%;
+        margin-top: 80px;
+    }
+    
+    #section2, #section3{
+        padding: 15% 15%;
+        margin-top: -80px;
+    }
+}
+
+@media all and (min-width: 850px) {
+    #section1{
+        padding: 15% 15%;
+        margin-top: -80px;
+    }
+    
+    #section2{
+        padding: 15% 15%;
+        margin-top: -380px;
+    }
+    
+    #section3{
+        padding: 15% 15%;
+        margin-top: -380px;
+    }
+    
 }
